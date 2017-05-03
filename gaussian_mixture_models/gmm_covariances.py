@@ -5,6 +5,9 @@ GMM covariances
 
 Gaussian mixture models的几个协方差类型的演示。
 
+Gaussian mixture models是一個概率模型，假设所有数据点都是从有限数量的具有未知参数的高斯分布的混合生成的。
+高斯分布由均值向量和协方差矩阵两个参数确定。
+
 GMM算法经常被用来做clustering，我们能比较获得的clusters和实际的classes。我们初始化
 训练集里Gaussians的means和classes的means使比较有效。
 
